@@ -36,7 +36,7 @@
             android:background="@null"
             android:layout_centerHorizontal="true"
             android:id="@+id/navMenuIcon"
-            android:src="@drawable/ic_students_cap"/>
+            app:srcCompat="@drawable/ic_students_cap"/>
         <me.citrafa.mycollegeassistant.CustomWidget.tvMuseo
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -73,7 +73,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:src="@drawable/ic_teacher_pointing_blackboard" />
+                app:srcCompat="@drawable/ic_teacher_pointing_blackboard" />
             <me.citrafa.mycollegeassistant.CustomWidget.tvRoboto
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -93,7 +93,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:src="@drawable/ic_a_best_test_result" />
+            app:srcCompat="@drawable/ic_a_best_test_result" />
             <me.citrafa.mycollegeassistant.CustomWidget.tvRoboto
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -112,7 +112,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:src="@drawable/ic_confirm_schedule" />
+            app:srcCompat="@drawable/ic_confirm_schedule" />
         <me.citrafa.mycollegeassistant.CustomWidget.tvRoboto
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -130,7 +130,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:src="@drawable/ic_note" />
+            app:srcCompat="@drawable/ic_note" />
             <me.citrafa.mycollegeassistant.CustomWidget.tvRoboto
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -156,7 +156,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:src="@drawable/ic_nut_icon" />
+                app:srcCompat="@drawable/ic_nut_icon" />
             <me.citrafa.mycollegeassistant.CustomWidget.tvRoboto
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -173,7 +173,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:src="@drawable/ic_info" />
+                    app:srcCompat="@drawable/ic_info" />
                 <me.citrafa.mycollegeassistant.CustomWidget.tvRoboto
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -190,7 +190,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:src="@drawable/ic_icon" />
+                        app:srcCompat="@drawable/ic_icon" />
                     <me.citrafa.mycollegeassistant.CustomWidget.tvRoboto
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

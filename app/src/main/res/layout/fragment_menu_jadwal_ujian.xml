@@ -9,9 +9,9 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="me.citrafa.asistenkuliahku.ActivityClass.menuJadwalUjian">
+    tools:context="me.citrafa.mycollegeassistant.Activity.Fragment.menuJadwalUjian">
 
-    <include layout="@layout/content_jadwal_lain"/>
+    <include layout="@layout/content_jadwal_ujian"/>
     <android.support.design.widget.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

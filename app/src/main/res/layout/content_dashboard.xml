@@ -20,7 +20,7 @@
         android:layout_marginTop="20dp"
         android:minWidth="40dp"
         android:minHeight="40dp"
-        android:src="@drawable/ic_moon"
+        app:srcCompat="@drawable/ic_moon"
         android:layout_alignParentRight="true"/>
     <TextView
         android:layout_width="wrap_content"
@@ -39,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:src="@drawable/ic_notifications_black_24dp"
+        app:srcCompat="@drawable/ic_notifications_black_24dp"
         android:id="@+id/dashboardIcon"/>
     <me.citrafa.mycollegeassistant.CustomWidget.tvMuseo
         android:layout_width="match_parent"
