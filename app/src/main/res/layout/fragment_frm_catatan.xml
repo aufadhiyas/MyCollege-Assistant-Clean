@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.citrafa.mycollegeassistant.Activity.Fragment.frmCatatan">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+    <me.citrafa.mycollegeassistant.CustomWidget.etMuseo
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtCatatanNama"
+        android:hint="Nama Catatan"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <me.citrafa.mycollegeassistant.CustomWidget.btnMuseo
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnCatatanAttach"
+                android:text="Browse File"/>
+            <me.citrafa.mycollegeassistant.CustomWidget.tvMuseo
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/btnCatatanAttach"
+                android:text=""
+                android:id="@+id/lblCatatanFileName"/>
+
+        </LinearLayout>
+
+    <me.citrafa.mycollegeassistant.CustomWidget.etMuseo
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtWaktuCatatan"
+        android:hint="Waktu"/>
+    <me.citrafa.mycollegeassistant.CustomWidget.etMuseo
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDeskripsiCatatan"
+        android:elegantTextHeight="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/btnCatatanAttach"
+        android:lines="3"
+        android:hint="Deskripsi"/>
+
+        <me.citrafa.mycollegeassistant.CustomWidget.btnMuseo
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCatatanSimpan"
+            android:layout_gravity="end"
+            android:text="Simpan"/>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

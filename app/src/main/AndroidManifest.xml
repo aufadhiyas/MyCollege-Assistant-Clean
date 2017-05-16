@@ -1,0 +1,45 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="me.citrafa.mycollegeassistant">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".AppController.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.frmLogin"
+            android:theme="@style/MyThemeNoActionBar" />
+        <activity android:name=".Activity.frmVerifikasi" />
+        <activity
+            android:name=".Activity.frmDaftar"
+            android:theme="@style/MyThemeNoActionBar" />
+        <activity android:name=".Activity.Dashboard">
+
+        </activity>
+        <activity
+            android:name=".Activity.menuJadwalKuliahTab"
+            android:label="@string/title_activity_menu_jadwal_kuliah_tab"
+            android:parentActivityName=".Activity.Dashboard"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="me.citrafa.mycollegeassistant.Activity.Dashboard" />
+        </activity>
+
+    </application>
+
+</manifest>
